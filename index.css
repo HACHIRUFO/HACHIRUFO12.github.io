@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+h1{ font-size: 2.2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: rgb(230,230,230);
+}
+
+header .logo{
+    margin: 0;
+    font-size: 1.5em;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: crimson;
+}
+
+header .container{
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    font-size: 1.2em;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+header a:hover{
+    color: red
+}
+
+h1{color:crimson}
+
+/*---sección background---*/
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(leyenda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Huascaran{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(255,228,196,0.5),
+        rgba(255,228,196,0.5)
+    )
+    ,url(huasca.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Muki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.7), 
+        rgba(255, 255, 255, 0.7) 
+    )
+    ,url(mina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Ayar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(255,228,196,0.5),
+        rgba(255,228,196,0.5)
+    )
+    ,url(cueva.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Capac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.7), 
+        rgba(255, 255, 255, 0.7)
+    )
+    ,url(manco-capac-y-mama-ocllo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*---sección background---*/
+#hero h1{
+    font-size: 3.5em;
+    color: white;
+}
+/*---sección centro---*/
+#Huascaran .container{
+    text-align: center;
+    padding: 200px 12px;
+
+}
+
+#Muki .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Ayar .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Capac .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+/*---sección centro---*/
+
+/*---sección img---*/
+#Huascaran .img-container{
+    background-image: url("huascaran.png");
+    background-size: cover;
+    background-position: center center;
+    height: 650px;
+    width: 500px;
+}
+
+#Muki .img-container{
+    background-image: url("muki.png");
+    background-size: cover;
+    background-position: center center;
+    height: 650px;
+    width: 500px;
+}
+
+#Ayar .img-container{
+    background-image: url("ayar.png");
+    background-size: cover;
+    background-position: center center;
+    height: 650px;
+    width: 500px;
+}
+
+#Capac .img-container{
+    background-image: url("Capac.png");
+    background-size: cover;
+    background-position: center center;
+    height: 650px;
+    width: 500px;
+}
+/*---sección img---*/
+
+/*---sección 1pag---*/
+#Huascaran{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(245,245,245);
+}   
+
+#Muki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(245,245,245);
+}
+
+#Ayar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(245,245,245);
+}
+
+#Capac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(245,245,245);
+}
+
+/*---sección 1pag---*/
+
+/*---sección flex---*/
+#Huascaran .container{
+    display: flex;
+}
+
+#Muki .container {
+    display: flex;
+}
+
+#Ayar .container {
+    display: flex;
+}
+
+#Ayar .container {
+    display: flex;
+}
+
+#Capac .container {
+    display: flex;
+}
+/*---sección flex---*/
+
+.texto{
+    width:50%;
+    text-align: initial;
+    padding: 0px 30px;
+
+}
+
+@media (min-width: 720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+        margin: 10px 19px
+    }
+}
